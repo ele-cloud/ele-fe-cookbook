@@ -1,0 +1,51 @@
+{
+  "title": "DXHY FE",
+  "author": "DXHY FE",
+  "description": "🐘 全税研发部 FE 开发手册",
+  "generator": "site",
+  "links": {
+    "sidebar": {
+      "\uD83D\uDC18 全税研发部 FE 开发手册": "https://github.com/AngusYang9/dxhy-cookbook"
+    }
+  },
+
+  "plugins": ["-lunr", "-search", "search-plus", "advanced-emoji", "github", "splitter", "mermaid-gb3",
+    "tbfed-pagefooter", "expandable-chapters-small", "sectionx",  "simple-page-toc", "anchors", "anchor-navigation-ex",
+    "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters", "custom-favicon",
+    "prism", "prism-themes", "-highlight", "theme-default"],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/AngusYang9/dxhy-cookbook"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy DXHY FE 2019",
+      "modify_label": "该文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "sectionx": {
+      "tag": "b"
+    },
+    "simple-page-toc": {
+      "maxDepth": 0,
+      "skipFirstH1": true
+    },
+    "edit-link": {
+      "base": "https://github.com/AngusYang9/dxhy-cookbook",
+      "label": "Edit This Page"
+    },
+    "favicon": "assets/images/favicon.ico",
+    "anchor-navigation-ex": {
+      "showLevel":false,
+      "associatedWithSummary":true
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-xonokai.css"
+      ]
+    },
+    "expandable-chapters-small":{}
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+}
