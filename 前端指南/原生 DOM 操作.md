@@ -1,7 +1,5 @@
 # 原生 DOM 操作
 
-> 作者：杨勇
-
 ## 简介
 
 通过html dom 可以访问html文档的所有元素，当网页被加载时，浏览器会创建页面的文档对象模型（Document Object Model）。通过可编程的对象模型，JavaScript 获得了足够的能力来创建动态的HTML。

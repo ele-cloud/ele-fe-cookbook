@@ -5,17 +5,16 @@
   "generator": "site",
   "links": {
     "sidebar": {
-      "\uD83D\uDC18 全税研发部 FE 开发手册": "https://github.com/AngusYang9/dxhy-cookbook"
+      "\uD83D\uDC18 全税研发部 FE 开发手册": "http://10.1.1.216/yangyong/cookbook"
     }
   },
-
   "plugins": ["-lunr", "-search", "search-plus", "advanced-emoji", "github", "splitter", "mermaid-gb3",
     "tbfed-pagefooter", "expandable-chapters-small", "sectionx",  "simple-page-toc", "anchors", "anchor-navigation-ex",
     "edit-link", "todo", "copy-code-button", "alerts", "toggle-chapters", "custom-favicon",
     "prism", "prism-themes", "-highlight", "theme-default"],
   "pluginsConfig": {
     "github": {
-      "url": "https://github.com/AngusYang9/dxhy-cookbook"
+      "url": "http://10.1.1.216/yangyong/cookbook"
     },
     "tbfed-pagefooter": {
       "copyright":"Copyright &copy DXHY FE 2019",
@@ -30,7 +29,7 @@
       "skipFirstH1": true
     },
     "edit-link": {
-      "base": "https://github.com/AngusYang9/dxhy-cookbook",
+      "base": "http://10.1.1.216/yangyong/cookbook/blob/master",
       "label": "Edit This Page"
     },
     "favicon": "assets/images/favicon.ico",
