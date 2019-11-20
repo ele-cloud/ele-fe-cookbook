@@ -1,6 +1,6 @@
 # Summary
 
-* [前言](README.md)
+* [Introduction](intro.md)
 * [前端指南](前端指南/README.md)
     * [前端基础知识](前端指南/前端基础知识.md)
     * [全税前端常用网址](前端指南/全税前端常用网址.md)
@@ -20,6 +20,7 @@
     * [JavaScript 代码规范](前端规范/JavaScript 代码规范.md)
     * [CSS 样式规范](前端规范/CSS 样式规范.md)
 * [前端分享](前端分享/README.md)
+    * [浏览器跨域](前端分享/浏览器跨域.md)  
 * [其他资源](其他资源/README.md)
     * [Shell - 编程基础](其他资源/Shell - 编程基础.md)
     * [NPM - 包管理工具](其他资源/NPM - 包管理工具.md)
