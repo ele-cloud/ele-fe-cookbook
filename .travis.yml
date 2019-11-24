@@ -8,7 +8,7 @@ before_install:
   - echo -e "Host ${SERVER_USER_HOST}\n\tStrictHostKeyChecking no\n\tIdentityFile ~/.ssh/id_rsa_ele-fe-cookbook" >> ~/.ssh/config
 
 install:
-  - yarn global install gitbook-cli
+  - npm -g install gitbook-cli
   - gitbook install
 
 script:
