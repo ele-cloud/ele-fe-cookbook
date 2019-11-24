@@ -1,0 +1,21 @@
+language: node_js
+node_js: stable
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_a5e7e786fd7d_key -iv $encrypted_a5e7e786fd7d_iv
+    -in id_rsa_ele-fe-cookbook.enc -out ~/.ssh/id_rsa_ele-fe-cookbook -d
+  - chmod 600 ~/.ssh/id_rsa_ele-fe-cookbook
+  - echo -e "Host ${SERVER_USER_HOST}\n\tStrictHostKeyChecking no\n\tIdentityFile ~/.ssh/id_rsa_ele-fe-cookbook" >> ~/.ssh/config
+
+install:
+  - yarn global install gitbook-cli
+  - gitbook install
+
+script:
+  - echo 初始化文件...
+  - gitbook init
+  - echo 正在生成静态文件...
+  - gitbook build
+  - echo 完成构建，正在部署...
+  #    拷贝文件【scp是secure copy的缩写, scp是linux系统下基于ssh登陆进行安全的远程文件拷贝命令。】
+  - scp -o stricthostkeychecking=no -r _book/* root@${SERVER_USER_HOST}:${SERVER_MASTER_PATH}
