@@ -11,10 +11,10 @@
     "prism", "prism-themes", "-highlight", "theme-default", "insert-logo"],
   "pluginsConfig": {
     "github": {
-      "url": "http://10.1.1.216/yangyong/cookbook"
+      "url": "https://github.com/AngusYang9/ele-fe-cookbook"
     },
     "edit-link": {
-      "base": "http://10.1.1.216/yangyong/cookbook/blob/master",
+      "base": "https://github.com/AngusYang9/ele-fe-cookbook/edit/master",
       "label": "完善文档"
     },
     "insert-logo": {
@@ -26,11 +26,6 @@
       "showLevel":false,
       "associatedWithSummary":true
     },
-    "prism": {
-      "css": [
-        "prism-themes/themes/prism-xonokai.css"
-      ]
-    }
   },
   "styles": {
     "website": "styles/website.css"
