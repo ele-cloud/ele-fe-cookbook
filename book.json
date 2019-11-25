@@ -25,7 +25,7 @@
     "anchor-navigation-ex": {
       "showLevel":false,
       "associatedWithSummary":true
-    },
+    }
   },
   "styles": {
     "website": "styles/website.css"
