@@ -1,4 +1,11 @@
-# FE CookBook
+<p align="center">
+  <img width="100px" src="https://i.loli.net/2019/08/29/rQEtBRFTyHZhp6D.jpg" />
+</p>
+<h3 align="center">ELE FE CookBook</h3>
+
+<p align="center">
+  <a href="https://travis-ci.org/AngusYang9/ele-fe-cookbook"><img src="https://travis-ci.org/AngusYang9/ele-fe-cookbook.svg?branch=master" /></a>
+</p>
 
 该仓库为前端文档仓库，使用gitbook搭建文档网站。
 
