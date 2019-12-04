@@ -15,6 +15,7 @@ module.exports = {
     lastUpdated: '上次更新',
     smoothScroll: true,
     repo: 'https://github.com/AngusYang9/ele-fe-cookbook',
+    docsDir: 'docs',
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页 ！'
   },
