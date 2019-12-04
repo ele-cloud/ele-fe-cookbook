@@ -8,7 +8,7 @@ before_install:
   - echo -e "Host ${SERVER_USER_HOST}\n\tStrictHostKeyChecking no\n\tIdentityFile ~/.ssh/id_rsa_ele-fe-cookbook" >> ~/.ssh/config
 
 install:
-
+  - npm -g install vuepress
 script:
   - echo 正在生成静态文件...
   - npm run docs:build
