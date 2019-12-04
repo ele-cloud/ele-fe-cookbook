@@ -8,14 +8,10 @@ before_install:
   - echo -e "Host ${SERVER_USER_HOST}\n\tStrictHostKeyChecking no\n\tIdentityFile ~/.ssh/id_rsa_ele-fe-cookbook" >> ~/.ssh/config
 
 install:
-  - npm -g install gitbook-cli
-  - gitbook install
 
 script:
-  - echo 初始化文件...
-  - gitbook init
   - echo 正在生成静态文件...
-  - gitbook build
+  - npm run docs:build
   - echo 完成构建，正在部署...
   #    拷贝文件【scp是secure copy的缩写, scp是linux系统下基于ssh登陆进行安全的远程文件拷贝命令。】
-  - scp -o stricthostkeychecking=no -r _book/* root@${SERVER_USER_HOST}:${SERVER_MASTER_PATH}
+  - scp -o stricthostkeychecking=no -r docs/.vuepress/dist/* root@${SERVER_USER_HOST}:${SERVER_MASTER_PATH}
