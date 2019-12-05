@@ -13,9 +13,16 @@ module.exports = {
     'WebStorm 常用插件推荐',
   ],
   '/前端规范/': [
-    'Git 提交规范',
+    {
+      title: 'Git 相关规范',   // 必要的
+      collapasble: true,
+      children: [
+        './Git 相关规范/git分支命名规范与工作流程',
+        './Git 相关规范/git commit 工作流的标准姿势以及 release note 自动生成'
+      ]
+    },
     'JavaScript 代码规范',
-    'CSS 样式规范',
+    'CSS 样式规范'
   ],
   '/前端分享/': [
   ],
