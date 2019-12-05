@@ -9,6 +9,7 @@ before_install:
 
 install:
   - npm -g install vuepress
+  - npm install
 script:
   - echo 正在生成静态文件...
   - npm run docs:build
