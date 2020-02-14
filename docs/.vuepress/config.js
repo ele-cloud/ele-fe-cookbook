@@ -25,7 +25,7 @@ module.exports = {
     sidebarDepth: 3,
     lastUpdated: '上次更新',
     smoothScroll: true,
-    repo: 'https://github.com/AngusYang9/ele-fe-cookbook',
+    repo: 'https://github.com/ele-cloud',
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '在 GitHub 上编辑此页 ！'
